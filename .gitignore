@@ -1,0 +1,30 @@
+# Sensitive files
+secret.key
+*.key
+
+# Encrypted and decrypted files
+encrypted_*.jpg
+decrypted_*.jpg
+
+# Received files (may contain sensitive data)
+received_files/
+
+# Executables and binaries
+ngrok.exe
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
